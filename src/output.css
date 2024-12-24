@@ -582,6 +582,30 @@ video {
   margin-top: 30px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[130px\] {
+  margin-left: 130px;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.ml-\[120px\] {
+  margin-left: 120px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -612,6 +636,42 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[50\] {
+  width: 50;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .items-end {
@@ -668,6 +728,14 @@ video {
 
 .rounded-\[10px\] {
   border-radius: 10px;
+}
+
+.rounded-\[6px\] {
+  border-radius: 6px;
+}
+
+.rounded-\[7px\] {
+  border-radius: 7px;
 }
 
 .bg-\[\] {
@@ -778,6 +846,11 @@ video {
   padding-bottom: 20px;
 }
 
+.py-\[15\] {
+  padding-top: 15;
+  padding-bottom: 15;
+}
+
 .pt-\[10px\] {
   padding-top: 10px;
 }
@@ -810,6 +883,18 @@ video {
   font-size: 40px;
 }
 
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[2px\] {
+  font-size: 2px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -836,6 +921,11 @@ video {
   color: rgb(26 62 62 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#F2BE22\] {
+  --tw-text-opacity: 1;
+  color: rgb(242 190 34 / var(--tw-text-opacity, 1));
+}
+
 header{
   background-image: url(./Rectangle\ 1.png);
   background-size: cover;
@@ -845,8 +935,28 @@ header{
 }
 
 @media (min-width: 1024px) {
+  .lg\:m-auto {
+    margin: auto;
+  }
+
   .lg\:mt-\[0px\] {
     margin-top: 0px;
+  }
+
+  .lg\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .lg\:mt-\[90px\] {
+    margin-top: 90px;
+  }
+
+  .lg\:ml-\[0p\] {
+    margin-left: 0p;
+  }
+
+  .lg\:ml-\[0px\] {
+    margin-left: 0px;
   }
 
   .lg\:block {
@@ -875,6 +985,36 @@ header{
 
   .lg\:w-\[78\%\] {
     width: 78%;
+  }
+
+  .lg\:w-\[78\] {
+    width: 78;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-\[50\] {
+    width: 50;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .lg\:px-\[\] {
+    padding-left: ;
+    padding-right: ;
+  }
+
+  .lg\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .lg\:text-\[60px\] {

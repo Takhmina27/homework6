@@ -638,6 +638,14 @@ video {
   margin-left: 80px;
 }
 
+.ml-\[60px\] {
+  margin-left: 60px;
+}
+
+.ml-\[65px\] {
+  margin-left: 65px;
+}
+
 .flex {
   display: flex;
 }
@@ -1096,6 +1104,10 @@ header{
     margin-top: 60px;
   }
 
+  .lg\:ml-\[440px\] {
+    margin-left: 440px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1134,6 +1146,18 @@ header{
 
   .lg\:w-\[50\] {
     width: 50;
+  }
+
+  .lg\:w-\[98\%\] {
+    width: 98%;
+  }
+
+  .lg\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:flex-row {
